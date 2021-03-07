@@ -1,0 +1,91 @@
+@font-face{
+    font-family: radmir;
+    src: url(/Fonts/Gilroy-BoldItalic.woff)
+}
+
+body{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        font-family: radmir;
+        background-color: rgb(41, 41, 41);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;  
+        height: 2000px;
+        font-size: 20px;
+}
+
+a{
+    text-decoration:none;
+    color: green;
+}
+
+.weapons__assault{
+    background: linear-gradient(30deg, #044d01 0%, #00ff2a 20%);
+    display: table;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    text-shadow: 0 0 35px #059600;
+}
+
+.weapons__pistols{
+    
+    position: relative;
+   
+
+
+    background: linear-gradient(30deg, #044d01 0%, #00ff2a 20%);
+    display: table;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    text-shadow: 0 0 35px #059600;
+}
+
+.weapons__bb{
+    position: relative;
+  
+
+    background: linear-gradient(30deg, #044d01 0%, #00ff2a 20%);
+    display: table;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    text-shadow: 0 0 35px #059600;
+}
+
+.weapons__shotgun{
+    position: relative;
+   
+
+    background: linear-gradient(30deg, #044d01 0%, #00ff2a 20%);
+    display: table;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    text-shadow: 0 0 35px #059600;
+}
+
+
+.weapons__smg{
+    
+
+    background: linear-gradient(30deg, #044d01 0%, #00ff2a 20%);
+    display: table;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    text-shadow: 0 0 35px #059600;
+}
+
+.gradient__ammo{
+    background: linear-gradient(30deg, #044d01 0%, #00ff2a 20%);
+    display: table;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+
+    text-shadow: 0 0 35px #059600;
+}

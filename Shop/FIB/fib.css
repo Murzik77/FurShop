@@ -1,0 +1,87 @@
+@font-face {
+    font-family: radmir;
+    src: url(/Fonts/Gilroy-BoldItalic.woff)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: radmir;
+    background-color: rgb(41, 41, 41);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 2000px;
+    font-size: 20px;
+}
+
+.fibs a:hover {
+    background: rgb(0, 0, 255);
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+nav {
+    width: 3000px;
+    margin: 0;
+    font-size: 34px;
+}
+
+nav:before {
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: rgb(34, 34, 34);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+ul {
+    font-family: radmir;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: white;
+    display: block;
+    height: 50px;
+    padding: 0 20px;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+ul li a:hover {
+    background: rgb(0, 255, 0);
+    transition: 1s;
+}
+
+.fibid {
+    font-size: 30px;
+    background: linear-gradient(30deg, rgba(0, 208, 255, 1) 0%, rgba(0, 101, 170, 1) 10%, rgba(175, 202, 230, 1) 20%, rgba(0, 11, 255, 1) 30%, rgba(128, 87, 255, 1) 40%, rgba(178, 0, 255, 1) 50%, rgba(30, 99, 251, 1) 60%, rgba(0, 184, 217, 1) 70%, rgba(235, 110, 18, 1) 80%, rgba(229, 0, 0, 1) 90%, rgba(148, 187, 233, 1) 100%) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 50px 0px 0px 0px;
+}
